@@ -9,3 +9,8 @@ Before launch:
 - Replace temporary photography URLs with final Casa Norte photography when available
 
 - Resident Portal links to Casa Norte Buildium Resident Center
+
+## Version 3.3 updates
+- Client Portal navigation now opens the Casa Norte portal overview page.
+- Buildium is accessed only from the portal-page call-to-action.
+- Transparent Reporting now shows an anonymized property-inspection report preview.
