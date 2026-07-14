@@ -1,24 +1,4 @@
 # Casa Norte Concierge & Property Management
-
-Casa Norte is a boutique, family-owned property management company serving The Woodlands and North Houston, Texas.
-
-## Property types
-- Second homes and vacation homes
-- Long-term residential rentals
-- Short-term rentals
-- Select commercial properties, including flex and small industrial assets
-
-## Core services
-- Scheduled property inspections and photographic reports
-- Maintenance and vendor coordination
-- Tenant and guest communication
-- Operational and document management
-- Cleaning, landscaping and home preparation coordination
-- Secure client portal with reports, photos, maintenance updates and service history
-
-## Primary service areas
-The Woodlands, Spring, Conroe, Magnolia, Tomball and North Houston.
-
-## Contact
-Email: info@casanorte.us
-Website: https://www.casanorte.us/
+Casa Norte is a boutique property management company serving The Woodlands and North Houston.
+Services include second homes, vacation homes, rentals, commercial property management, inspections, maintenance coordination, concierge services and client reporting.
+Contact: info@casanorte.us

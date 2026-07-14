@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.casanorte.us/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<url><loc>https://www.casanorte.us/</loc></url>
+<url><loc>https://www.casanorte.us/residential.html</loc></url>
+<url><loc>https://www.casanorte.us/commercial.html</loc></url>
+<url><loc>https://www.casanorte.us/concierge.html</loc></url>
+<url><loc>https://www.casanorte.us/client-portal.html</loc></url>
+<url><loc>https://www.casanorte.us/about.html</loc></url>
+<url><loc>https://www.casanorte.us/contact.html</loc></url>
 </urlset>
