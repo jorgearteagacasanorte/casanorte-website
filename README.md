@@ -7,3 +7,5 @@ Before launch:
 - Replace the Formspree placeholder in contact.html
 - Review the privacy policy
 - Replace temporary photography URLs with final Casa Norte photography when available
+
+- Resident Portal links to Casa Norte Buildium Resident Center

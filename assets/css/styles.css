@@ -11,3 +11,41 @@
 .site-footer{background:#11150f;color:#fff;padding:72px 0 22px}.footer-main{display:grid;grid-template-columns:1.3fr .7fr .6fr .8fr;gap:60px}.footer-brand img{width:220px;margin-bottom:18px;filter:brightness(0) invert(1)}.footer-brand p{color:rgba(255,255,255,.55);max-width:440px}.footer-main h3{font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;color:#c9cca5}.footer-main a,.footer-main span{display:block;text-decoration:none;color:rgba(255,255,255,.68);margin:8px 0}.footer-bottom{margin-top:50px;padding-top:18px;border-top:1px solid rgba(255,255,255,.13);display:flex;justify-content:space-between;color:rgba(255,255,255,.45);font-size:.76rem}.reveal{opacity:0;transform:translateY(24px);transition:opacity .75s ease,transform .75s ease}.reveal.visible{opacity:1;transform:none}
 @media(max-width:1040px){.nav-shell{grid-template-columns:1fr auto;padding:10px 14px}.primary-nav,.nav-cta{display:none}.menu-toggle{display:block}.primary-nav.open{display:flex;position:absolute;top:86px;left:18px;right:18px;background:var(--paper);padding:24px;flex-direction:column;border-radius:14px;box-shadow:var(--shadow)}.primary-nav.open a{color:var(--ink)}.promise-grid,.portal-grid,.local-grid,.split-content,.portal-page-grid,.contact-grid{grid-template-columns:1fr;gap:44px}.property-showcase{grid-template-columns:1fr}.approach-grid{grid-template-columns:1fr 1fr}.process-grid{grid-template-columns:1fr 1fr 1fr}.portal-stage{min-height:650px}.service-card-grid{grid-template-columns:1fr 1fr}.footer-main{grid-template-columns:1fr 1fr}}
 @media(max-width:680px){:root{--container:min(100% - 28px,1180px)}.section{padding:78px 0}h1{font-size:3.2rem}h2{font-size:2.45rem}.brand img{width:155px}.hero-home{min-height:980px;align-items:flex-start}.hero-content{padding-top:205px}.button-row{flex-direction:column;align-items:stretch}.trust-strip{justify-content:flex-start;overflow:auto;white-space:nowrap}.promise-image{height:400px}.approach-grid,.process-grid,.service-card-grid,.service-card-grid.two,.feature-list,.contact-form{grid-template-columns:1fr}.portal-stage{min-height:580px}.laptop{right:0}.laptop-screen{grid-template-columns:1fr}.laptop-screen aside{display:none}.dash-cards{grid-template-columns:1fr}.dash-lower{grid-template-columns:1fr}.phone{display:none}.local-photo{height:430px}.contact-form .full{grid-column:auto}.footer-main{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:8px}}
+
+/* Buildium-connected resident portal */
+.resident-portal-hero{min-height:100vh;padding:150px 0 90px;background:linear-gradient(135deg,#f7f5ef,#ecefe9)}
+.resident-portal-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:66px;align-items:center}
+.resident-portal-copy h1{color:var(--olive);max-width:650px}
+.resident-portal-copy>p:not(.eyebrow){font-size:1.05rem;max-width:580px}
+.portal-action-row{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:30px 0}
+.portal-action-row span{font-size:.72rem;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.portal-benefits{list-style:none;padding:0;margin:34px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:10px 24px}
+.portal-benefits li{position:relative;padding-left:20px;color:var(--muted)}
+.portal-benefits li:before{content:'✓';position:absolute;left:0;color:#73b985;font-weight:900}
+.buildium-preview{background:#fff;border-radius:16px;box-shadow:0 28px 85px rgba(33,40,31,.18);overflow:hidden;border:1px solid #dde1da}
+.bp-shell{display:grid;grid-template-columns:190px 1fr;min-height:600px;background:#f5f6f4}
+.bp-sidebar{background:#fff;border-right:1px solid #e3e6df;padding:24px 18px;display:flex;flex-direction:column;gap:8px}
+.bp-sidebar img{width:135px;margin:0 auto 26px}
+.bp-sidebar a{display:flex;gap:12px;align-items:center;text-decoration:none;padding:11px 12px;border-radius:7px;font-size:.78rem;font-weight:750;color:#20231f}
+.bp-sidebar a.active{color:#68b67a;background:#eef7f0;border-left:4px solid #68b67a;border-radius:0 7px 7px 0}
+.bp-sidebar small{margin-top:auto;color:#9a9f98;font-size:.62rem;text-transform:uppercase;letter-spacing:.08em}
+.bp-main{padding:28px 30px}
+.bp-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;color:#777d76}
+.bp-top span{font-size:1.45rem}
+.bp-balance{background:#fff;border-radius:8px;border-left:5px solid #70bb80;padding:28px 32px;display:flex;justify-content:space-between;gap:25px;align-items:center;box-shadow:0 4px 18px rgba(36,45,34,.06)}
+.bp-balance small,.bp-balance span{display:block;color:#7d827c}
+.bp-balance strong{display:block;font-size:2.2rem;color:#111;margin:2px 0}
+.bp-balance button,.bp-card button{border:0;border-radius:999px;background:#73ba82;color:#fff;font-weight:800;padding:11px 30px;min-width:210px}
+.bp-balance button.secondary{display:block;margin-top:10px;background:#fff;color:#777;border:1px solid #edf0ec}
+.bp-cards{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+.bp-card{background:#fff;padding:25px;border-radius:8px;min-height:270px;box-shadow:0 4px 18px rgba(36,45,34,.06)}
+.bp-card h3{font-size:1.05rem}
+.request-icon{width:58px;height:58px;border:2px solid #70bb80;border-radius:50%;display:grid;place-items:center;color:#70bb80;font-size:1.4rem;margin:24px 0 16px}
+.bp-card strong{display:block;font-size:1.3rem;color:#6f756e}
+.bp-card p{font-size:.82rem}
+.bp-card button{min-width:0;padding:10px 22px}
+.doc-list{display:flex;flex-direction:column;gap:12px;margin-top:28px}
+.doc-list span{padding:14px;border:1px solid #edf0ec;border-radius:6px;color:#6f756e;font-size:.82rem}
+.portal-explainer{background:var(--paper)}
+@media(max-width:1040px){.resident-portal-grid{grid-template-columns:1fr}.bp-shell{min-height:540px}}
+@media(max-width:680px){.resident-portal-hero{padding-top:125px}.portal-benefits{grid-template-columns:1fr}.bp-shell{grid-template-columns:1fr;min-height:auto}.bp-sidebar{display:none}.bp-main{padding:16px}.bp-balance{flex-direction:column;align-items:stretch}.bp-balance button{width:100%;min-width:0}.bp-cards{grid-template-columns:1fr}.bp-card:nth-child(2){display:none}}
